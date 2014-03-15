@@ -2570,7 +2570,6 @@ tuplestore_put_error_text(Tuplestorestate *tuple_store, TupleDesc tupdesc,
 {
 	StringInfoData  sinfo;
 	const char *level_str;
-	bool			use_sql_lineno = false;
 
 	Assert(message != NULL);
 
